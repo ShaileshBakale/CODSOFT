@@ -1,0 +1,161 @@
+/* body {
+    font-family: system-ui, sans-serif;
+   
+  } */
+  @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+  body {
+    font-family: "Ubuntu", sans-serif;
+  }
+
+header { 
+    background-image: linear-gradient(to top left,#d1d1d8, #9eb5ce);
+    height:300px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.myname {
+    font-size: 45px;
+}
+
+#aboutme {
+   
+    padding top:50px;
+    text-align:center;
+}
+
+
+#mypic {
+    height:300px;
+    width:300px;
+    image-rendering: auto;
+    border-radius: 50%;
+    border: 2px solid rgb(7, 7, 133);
+
+    
+}
+
+#skills {
+    text-align:center;
+    background-image: linear-gradient(to top left,#d1d1d8, #9eb5ce);
+}
+#skills h1{
+    text-align: center;
+    padding-top:10px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+#skills li {
+    display:inline-block;
+    font-size: 48px;
+    padding:10px;
+    color:black;
+}
+#skills i {
+    color:rgb(35, 29, 66)
+}
+#projects {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .project {
+    margin-bottom: 40px;
+    border: 1px solid #ddd; /* Optional: Adds a border around the project */
+    border-radius: 10px; /* Optional: Rounds the corners of the border */
+    overflow: hidden; /* Ensures that child elements don’t overflow the border */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow */
+  }
+
+.description {
+    text-align: center;
+}
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease-in-out;
+    padding:10px;
+  }
+  
+  .project img:hover {
+    transform: scale(1.025);
+  }
+  
+  .project h3 {
+    margin: 20px 0 10px;
+    font-size: 24px;
+  }
+  
+  .project p.description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  .project ul.features {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto; 
+    max-width: 600px; 
+  }
+  
+  .project ul.features li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: left; 
+  }
+  
+  .project p.summary {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+
+  #resume {
+    text-align: center;
+    padding: 40px 20px;
+    background-image: linear-gradient(to top left,#d1d1d8, #9eb5ce);
+    margin: 0 auto; /* Centers the section horizontally */
+    position: relative; /* Ensures the section respects normal document flow */
+    z-index: 1;
+  }
+
+
+  #resume a {
+    font-size: 18px;
+    color: #6f70af;
+    text-decoration: none;
+    border: 2px solid #6a6ba1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+  
+  }
+  #resume a:hover {
+    background-color: #6a68a3;
+    color: #fff;
+  }
+  #resume a::after{
+      transition: 0.5s ease-out;
+  }
+  #contact {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  #contact p {
+    font-size: 16px;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
